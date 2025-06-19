@@ -22,7 +22,8 @@ applications:
         protocol: http
       locations:
         '/':
-          #root: ""
+          
+          
           passthru: true
           request_buffering:
             enabled: false
